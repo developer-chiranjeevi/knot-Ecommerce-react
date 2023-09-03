@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom";
 import Signin from './routes/Signin';
 import SignUp from './routes/SignUp';
 import Cart from './routes/Cart';
+import ProductDetails from './routes/ProductDetails';
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
       <Route path="/signin" element={<Signin />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/cart" element={<Cart />} />
+      <Route path="/product/:id" element={<ProductDetails />} />
     </Routes>
    </div>
   )
