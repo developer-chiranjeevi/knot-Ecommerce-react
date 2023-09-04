@@ -51,7 +51,7 @@ const Topbar = () =>{
                   
               </div>
             </div>
-            <div className={(navOpen?"block h-[calc(38vh)] w-full basis-full overflow-hidden text-blue-gray-900 transition-all duration-300 ease-in lg:hidden":"block h-[calc(0vh)] w-full basis-full overflow-hidden text-blue-gray-900 transition-all duration-300 ease-in lg:hidden")}>
+            <div className={(navOpen?"block h-[calc(48vh)] w-full basis-full overflow-hidden text-blue-gray-900 transition-all duration-300 ease-in lg:hidden":"block h-[calc(0vh)] w-full basis-full overflow-hidden text-blue-gray-900 transition-all duration-300 ease-in lg:hidden")}>
               <ul className="mt-2 mb-4 flex flex-col gap-2 pb-2 ">
                 <li className="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
                   <Link to="/" className="flex items-center justify-between text-lg mb-3" href="/">
