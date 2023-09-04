@@ -87,7 +87,7 @@ const Topbar = () =>{
                 </li>
               </ul>
               <button className="w-full text-white bg-primary py-3 rounded-lg">Sign In</button>
-              <button className="w-full text-white bg-primary py-3 rounded-lg">Go To Cart</button>
+              <button className="w-full mt-6 text-white bg-primary py-3 rounded-lg">Go To Cart</button>
             </div>
           </nav>
     )
