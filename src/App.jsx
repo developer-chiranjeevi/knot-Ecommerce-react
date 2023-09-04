@@ -4,7 +4,7 @@ import Signin from './routes/Signin';
 import SignUp from './routes/SignUp';
 import Cart from './routes/Cart';
 import ProductDetails from './routes/ProductDetails';
-import ForHim from './routes/Forhim';
+import ForHim from './routes/ForHim';
 
 const App = () => {
 
