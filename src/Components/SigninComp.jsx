@@ -22,7 +22,7 @@ const SigninComp = () =>{
                                     <Field type="password" name="password" id="password" className="bg-gray-50 border border-gray-300 text-primary sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-primary" placeholder="****************" required="" />
                                     <ErrorMessage component="p" name="password" className="text-red"/> 
                                 </div>
-                                <Button type="submit" className="mt-6 w-full">Login</Button>
+                                <Button type="submit" className="mt-6 w-full bg-primary">Login</Button>
                             </Form>
                         )
                     }
