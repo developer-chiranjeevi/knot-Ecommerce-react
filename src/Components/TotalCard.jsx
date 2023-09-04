@@ -4,7 +4,7 @@ import {Button, Card,CardBody,Typography} from "@material-tailwind/react";
 
 const TotalCard = () =>{
 
-    const [total, setTotal] = useState(1203);
+    const [total, setTotal] = useState(600);
 
     return(
         <div className="">
