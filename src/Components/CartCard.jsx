@@ -18,9 +18,9 @@ const CartCard = ({imgUrl,title,subCategory,price}) =>{
                         <Typography variant="p" className="mb-2 capitalize text-shade1">{subCategory}</Typography>
                         <Typography variant="h6" className="mb-2 capitalize text-primary">{`₹ ${price}`}</Typography>
                         <div className="flex items-center">
-                            <Button size="sm" className="mr-4" onClick={()=>setCount(count+1)}>+</Button>
+                            <Button size="sm" className="mr-4 bg-primary" onClick={()=>setCount(count+1)}>+</Button>
                             <Typography variant="h5">{count}</Typography>
-                            <Button size="sm" className="ml-4" disabled={count<=0} onClick={()=>setCount(count-1)}>-</Button>
+                            <Button size="sm" className="ml-4 bg-primary" disabled={count<=0} onClick={()=>setCount(count-1)}>-</Button>
                         </div>
                     </div>
                 </CardBody>

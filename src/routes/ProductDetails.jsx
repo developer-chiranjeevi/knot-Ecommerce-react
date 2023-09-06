@@ -37,10 +37,15 @@ const ProductDetails = () =>{
                             <button className="uppercase border-2 border-shade2 py-2 px-4 lg:py-4 lg:px-6 rounded-lg mr-2">m</button>
                             <button className="uppercase border-2 border-shade2 py-2 px-4 lg:py-4 lg:px-6 rounded-lg mr-2">l</button>
                             <button className="uppercase border-2 border-shade2 py-2 px-4 lg:py-4 lg:px-6 rounded-lg mr-2">xl</button>
-                            <button className="uppercase border-2 border-shade2 py-2 px-4 lg:py-4 lg:px-6 rounded-lg mr-2">xll</button>
+                            <button className="uppercase border-2 border-shade2 py-2 px-4 lg:py-4 lg:px-6 rounded-lg mr-2">xxl</button>
                         </div>
                         <div className="">
-                            <button className="uppercase py-3 rounded-lg bg-primary hover:bg-secondary duration-300 w-full text-white mt-6">add to cart</button>
+                            <button className="uppercase py-3 rounded-lg bg-primary hover:bg-secondary duration-300 w-full text-white mt-6">
+                                add to cart
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-flex items-center ml-1 mb-1">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
                         </div>
 
                     </div>
